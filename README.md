@@ -100,7 +100,7 @@ Scores of two players can been seen the score board separately.
 At the Bottom of the Window you can see two icons. One icon is ‘Home’ icon which is for go back to ‘Home’ window. And Other Icon is ‘Restart’ icon for restart the ‘MultiPlayer Game Play’ again.
 ![multi player game play](https://i.ibb.co/KF9srqJ/multi-player-game-play.jpg "Multi Player Game Play")
 	
-## Trouble Shooting
+## Troubleshooting
 If you have got ‘JRE Not Found’ or ‘JRE Missing’ error from your OS when you are going to play the game first time. That means first of all ‘JRE’ should be install into your computer. So in such like case, Please visit [https://www.oracle.com/technetwork/java/javase/downloads/index.html](https://www.oracle.com/technetwork/java/javase/downloads/index.html) and download the latest ‘JRE 8’ version suitable for your OS.
 
 In any other case of game system errors, system will prompt a message box describing the error. When you click on the error message, it will try to fix the error and probably close the programme. Mostly when you restart the programme after occur an error in game system, will fix it.
