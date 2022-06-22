@@ -1,0 +1,41 @@
+.mainFxmlClass {
+
+}
+
+.spButton{
+    -fx-background-color: #0099CC;
+    -fx-background-radius: 15;
+    -fx-text-fill: #ffffff;
+    -fx-border-color: #0099CC;
+    -fx-border-radius: 15;
+    -fx-border-width: 5;
+}
+
+.mpButton{
+    -fx-background-color: #00BD93;
+    -fx-background-radius: 15;
+    -fx-text-fill: #ffffff;
+    -fx-border-color: #00BD93;
+    -fx-border-radius: 15;
+    -fx-border-width: 5;
+}
+
+.otherButtons{
+    -fx-background-color: #FF7800;
+    -fx-background-radius: 30;
+    -fx-text-fill: #ffffff;
+    -fx-border-color: #FF7800;
+    -fx-border-radius: 30;
+    -fx-border-width: 5;
+}
+
+.otherButtons:hover{
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 30;
+    -fx-text-fill: #FF7800;
+    -fx-border-color: #FF7800;
+    -fx-border-radius: 30;
+    -fx-border-width: 5;
+}
+
+

@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="spGamePlayAnchPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" styleClass="mainFxmlClass" stylesheets="@style/mpgameplay.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SPGamePlayController">
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="1000.0" opacity="0.8" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/image/BackgroundTemplate.jpg" />
+         </image>
+      </ImageView>
+      <Pane prefHeight="800.0" prefWidth="1000.0">
+         <children>
+            <Pane fx:id="globalBoardPane" layoutX="275.0" layoutY="225.0" prefHeight="450.0" prefWidth="450.0">
+               <children>
+                  <Pane fx:id="localBoard_1_Pane" prefHeight="150.0" prefWidth="150.0">
+                     <children>
+                        <JFXButton fx:id="box_11_Btn" alignment="CENTER" onAction="#box_11_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_12_Btn" alignment="CENTER" layoutX="50.0" onAction="#box_12_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_13_Btn" alignment="CENTER" layoutX="100.0" onAction="#box_13_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_14_Btn" alignment="CENTER" layoutY="50.0" onAction="#box_14_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_15_Btn" alignment="CENTER" layoutX="50.0" layoutY="50.0" onAction="#box_15_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_16_Btn" alignment="CENTER" layoutX="100.0" layoutY="50.0" onAction="#box_16_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_17_Btn" alignment="CENTER" layoutY="100.0" onAction="#box_17_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_18_Btn" alignment="CENTER" layoutX="50.0" layoutY="100.0" onAction="#box_18_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_19_Btn" alignment="CENTER" layoutX="100.0" layoutY="100.0" onAction="#box_19_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="localBoard_2_Pane" layoutX="150.0" prefHeight="150.0" prefWidth="150.0">
+                     <children>
+                        <JFXButton fx:id="box_21_Btn" alignment="CENTER" onAction="#box_21_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_22_Btn" alignment="CENTER" layoutX="50.0" onAction="#box_22_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_23_Btn" alignment="CENTER" layoutX="100.0" onAction="#box_23_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_24_Btn" alignment="CENTER" layoutY="50.0" onAction="#box_24_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_25_Btn" alignment="CENTER" layoutX="50.0" layoutY="50.0" onAction="#box_25_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_26_Btn" alignment="CENTER" layoutX="100.0" layoutY="50.0" onAction="#box_26_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_27_Btn" alignment="CENTER" layoutY="100.0" onAction="#box_27_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_28_Btn" alignment="CENTER" layoutX="50.0" layoutY="100.0" onAction="#box_28_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_29_Btn" alignment="CENTER" layoutX="100.0" layoutY="100.0" onAction="#box_29_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="localBoard_3_Pane" layoutX="300.0" prefHeight="150.0" prefWidth="150.0">
+                     <children>
+                        <JFXButton fx:id="box_31_Btn" alignment="CENTER" onAction="#box_31_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_32_Btn" alignment="CENTER" layoutX="50.0" onAction="#box_32_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_33_Btn" alignment="CENTER" layoutX="100.0" onAction="#box_33_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_34_Btn" alignment="CENTER" layoutY="50.0" onAction="#box_34_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_35_Btn" alignment="CENTER" layoutX="50.0" layoutY="50.0" onAction="#box_35_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_36_Btn" alignment="CENTER" layoutX="100.0" layoutY="50.0" onAction="#box_36_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_37_Btn" alignment="CENTER" layoutY="100.0" onAction="#box_37_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_38_Btn" alignment="CENTER" layoutX="50.0" layoutY="100.0" onAction="#box_38_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_39_Btn" alignment="CENTER" layoutX="100.0" layoutY="100.0" onAction="#box_39_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="localBoard_4_Pane" layoutY="150.0" prefHeight="150.0" prefWidth="150.0">
+                     <children>
+                        <JFXButton fx:id="box_41_Btn" alignment="CENTER" onAction="#box_41_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_42_Btn" alignment="CENTER" layoutX="50.0" onAction="#box_42_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_43_Btn" alignment="CENTER" layoutX="100.0" onAction="#box_43_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_44_Btn" alignment="CENTER" layoutY="50.0" onAction="#box_44_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_45_Btn" alignment="CENTER" layoutX="50.0" layoutY="50.0" onAction="#box_45_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_46_Btn" alignment="CENTER" layoutX="100.0" layoutY="50.0" onAction="#box_46_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_47_Btn" alignment="CENTER" layoutY="100.0" onAction="#box_47_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_48_Btn" alignment="CENTER" layoutX="50.0" layoutY="100.0" onAction="#box_48_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_49_Btn" alignment="CENTER" layoutX="100.0" layoutY="100.0" onAction="#box_49_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="localBoard_5_Pane" layoutX="150.0" layoutY="150.0" prefHeight="150.0" prefWidth="150.0">
+                     <children>
+                        <JFXButton fx:id="box_51_Btn" alignment="CENTER" onAction="#box_51_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_52_Btn" alignment="CENTER" layoutX="50.0" onAction="#box_52_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_53_Btn" alignment="CENTER" layoutX="100.0" onAction="#box_53_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_54_Btn" alignment="CENTER" layoutY="50.0" onAction="#box_54_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_55_Btn" alignment="CENTER" layoutX="50.0" layoutY="50.0" onAction="#box_55_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_56_Btn" alignment="CENTER" layoutX="100.0" layoutY="50.0" onAction="#box_56_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_57_Btn" alignment="CENTER" layoutY="100.0" onAction="#box_57_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_58_Btn" alignment="CENTER" layoutX="50.0" layoutY="100.0" onAction="#box_58_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_59_Btn" alignment="CENTER" layoutX="100.0" layoutY="100.0" onAction="#box_59_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="localBoard_6_Pane" layoutX="300.0" layoutY="150.0" prefHeight="150.0" prefWidth="150.0">
+                     <children>
+                        <JFXButton fx:id="box_61_Btn" alignment="CENTER" onAction="#box_61_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_62_Btn" alignment="CENTER" layoutX="50.0" onAction="#box_62_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_63_Btn" alignment="CENTER" layoutX="100.0" onAction="#box_63_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_64_Btn" alignment="CENTER" layoutY="50.0" onAction="#box_64_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_65_Btn" alignment="CENTER" layoutX="50.0" layoutY="50.0" onAction="#box_65_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_66_Btn" alignment="CENTER" layoutX="100.0" layoutY="50.0" onAction="#box_66_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_67_Btn" alignment="CENTER" layoutY="100.0" onAction="#box_67_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_68_Btn" alignment="CENTER" layoutX="50.0" layoutY="100.0" onAction="#box_68_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_69_Btn" alignment="CENTER" layoutX="100.0" layoutY="100.0" onAction="#box_69_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="localBoard_7_Pane" layoutY="300.0" prefHeight="150.0" prefWidth="150.0">
+                     <children>
+                        <JFXButton fx:id="box_71_Btn" alignment="CENTER" onAction="#box_71_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_72_Btn" alignment="CENTER" layoutX="50.0" onAction="#box_72_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_73_Btn" alignment="CENTER" layoutX="100.0" onAction="#box_73_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_74_Btn" alignment="CENTER" layoutY="50.0" onAction="#box_74_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_75_Btn" alignment="CENTER" layoutX="50.0" layoutY="50.0" onAction="#box_75_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_76_Btn" alignment="CENTER" layoutX="100.0" layoutY="50.0" onAction="#box_76_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_77_Btn" alignment="CENTER" layoutY="100.0" onAction="#box_77_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_78_Btn" alignment="CENTER" layoutX="50.0" layoutY="100.0" onAction="#box_78_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_79_Btn" alignment="CENTER" layoutX="100.0" layoutY="100.0" onAction="#box_79_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="localBoard_8_Pane" layoutX="150.0" layoutY="300.0" prefHeight="150.0" prefWidth="150.0">
+                     <children>
+                        <JFXButton fx:id="box_81_Btn" alignment="CENTER" onAction="#box_81_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_82_Btn" alignment="CENTER" layoutX="50.0" onAction="#box_82_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_83_Btn" alignment="CENTER" layoutX="100.0" onAction="#box_83_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_84_Btn" alignment="CENTER" layoutY="50.0" onAction="#box_84_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_85_Btn" alignment="CENTER" layoutX="50.0" layoutY="50.0" onAction="#box_85_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_86_Btn" alignment="CENTER" layoutX="100.0" layoutY="50.0" onAction="#box_86_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" text="Button" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_87_Btn" alignment="CENTER" layoutY="100.0" onAction="#box_87_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_88_Btn" alignment="CENTER" layoutX="50.0" layoutY="100.0" onAction="#box_88_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_89_Btn" alignment="CENTER" layoutX="100.0" layoutY="100.0" onAction="#box_89_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="localBoard_9_Pane" layoutX="300.0" layoutY="300.0" prefHeight="150.0" prefWidth="150.0">
+                     <children>
+                        <JFXButton fx:id="box_91_Btn" alignment="CENTER" onAction="#box_91_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_92_Btn" alignment="CENTER" layoutX="50.0" onAction="#box_92_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_93_Btn" alignment="CENTER" layoutX="100.0" onAction="#box_93_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_94_Btn" alignment="CENTER" layoutY="50.0" onAction="#box_94_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_95_Btn" alignment="CENTER" layoutX="50.0" layoutY="50.0" onAction="#box_95_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_96_Btn" alignment="CENTER" layoutX="100.0" layoutY="50.0" onAction="#box_96_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_97_Btn" alignment="CENTER" layoutY="100.0" onAction="#box_97_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_98_Btn" alignment="CENTER" layoutX="50.0" layoutY="100.0" onAction="#box_98_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <JFXButton fx:id="box_99_Btn" alignment="CENTER" layoutX="100.0" layoutY="100.0" onAction="#box_99_Btn_onAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-background-radius: 0; -fx-border-color: #C6C6C6; -fx-border-width: 1;" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <ImageView fitHeight="150.0" fitWidth="350.0" layoutX="260.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../asset/image/TicTacToeText.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="120.0" fitWidth="120.0" layoutX="610.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../asset/image/UltimateText.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="player1Icon" fitHeight="90.0" fitWidth="90.0" layoutX="100.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../asset/image/AIPlayerIcon.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="player2Icon" fitHeight="90.0" fitWidth="90.0" layoutX="810.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../asset/image/Player1Icon.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="player1NameLbl" alignment="CENTER" layoutX="70.0" layoutY="350.0" prefHeight="25.0" prefWidth="150.0" text="Player 1 Name" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="player2NameLbl" alignment="CENTER" layoutX="780.0" layoutY="350.0" prefHeight="25.0" prefWidth="150.0" text="Player 2 Name" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="22.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="280.0" fitWidth="300.0" layoutY="350.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../asset/image/scoreBoardIcon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="280.0" fitWidth="300.0" layoutX="710.0" layoutY="350.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../asset/image/scoreBoardIcon.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="110.0" layoutY="410.0" text="score">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="830.0" layoutY="410.0" text="score">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="player1ScoreLbl" alignment="CENTER" layoutX="70.0" layoutY="440.0" prefHeight="50.0" prefWidth="150.0" text="0" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="player2ScoreLbl" alignment="CENTER" layoutX="785.0" layoutY="440.0" prefHeight="50.0" prefWidth="150.0" text="0" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Label layoutX="380.0" layoutY="180.0" text="It's " textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Italic" size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="580.0" layoutY="180.0" text="Turn :" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Italic" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="nextTurnSignLbl" layoutX="545.0" layoutY="180.0" text="X" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="nextTurnPlayerNameLbl" layoutX="435.0" layoutY="180.0" text="Player 1" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="28.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="restartIcon" fitHeight="70.0" fitWidth="90.0" layoutX="830.0" layoutY="610.0" onMouseClicked="#restartIcon_onMouseClicked" onMouseEntered="#restartIcon_onMouseEntered" onMouseExited="#restartIcon_onMouseExited" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../asset/image/RestartButton.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="homeIcon" fitHeight="70.0" fitWidth="90.0" layoutX="110.0" layoutY="610.0" onMouseClicked="#homeIcon_onMouseClicked" onMouseEntered="#homeIcon_onMouseEntered" onMouseExited="#homeIcon_onMouseExited" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../asset/image/HomeButton.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+         </children>
+      </Pane>
+      <ImageView fx:id="closeIcon" fitHeight="50.0" fitWidth="100.0" layoutX="945.0" layoutY="5.0" onMouseClicked="#closeIcon_onMouseClicked" onMouseEntered="#closeIcon_onMouseEntered" onMouseExited="#closeIcon_onMouseExited" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/image/closeButton.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+   </children>
+</AnchorPane>

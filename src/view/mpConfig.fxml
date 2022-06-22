@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="mpConfigAnchPane" prefHeight="600.0" prefWidth="800.0" styleClass="mainFxmlClass" stylesheets="@style/mpconfig.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MPConfigController">
+   <children>
+      <Pane prefHeight="600.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../asset/image/BackgroundTemplate.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D />
+               </viewport>
+            </ImageView>
+            <Pane prefHeight="600.0" prefWidth="800.0">
+               <children>
+                  <ImageView fx:id="closeIcon" fitHeight="50.0" fitWidth="100.0" layoutX="740.0" layoutY="5.0" onMouseClicked="#closeIcon_onMouseClicked" onMouseEntered="#closeIcon_onMouseEntered" onMouseExited="#closeIcon_onMouseExited" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../asset/image/closeButton.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <ImageView fitHeight="200.0" fitWidth="300.0" layoutX="180.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../asset/image/TicTacToeText.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="120.0" fitWidth="120.0" layoutX="480.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../asset/image/UltimateText.png" />
+                     </image>
+                  </ImageView>
+                  <JFXTextField fx:id="player1NameTF" focusColor="#cbcbcb" labelFloat="true" layoutX="205.0" layoutY="240.0" onAction="#player1NameTF_onAction" prefHeight="30.0" prefWidth="400.0" promptText="Player 1 Name" style="-fx-prompt-text-fill: #CBCBCB; -fx-text-fill: #ffffff;" unFocusColor="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </JFXTextField>
+                  <ImageView fx:id="homeIcon" fitHeight="80.0" fitWidth="120.0" layoutX="60.0" layoutY="480.0" onMouseClicked="#homeIcon_onMouseClicked" onMouseEntered="#homeIcon_onMouseEntered" onMouseExited="#homeIcon_onMouseExited" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../asset/image/HomeButton.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <ImageView fx:id="playIcon" fitHeight="75.0" fitWidth="120.0" layoutX="660.0" layoutY="475.0" onMouseClicked="#playIcon_onMouseClicked" onMouseEntered="#playIcon_onMouseEntered" onMouseExited="#playIcon_onMouseExited" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../asset/image/PlayButton.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <JFXTextField fx:id="player2NameTF" focusColor="#cbcbcb" labelFloat="true" layoutX="205.0" layoutY="350.0" onAction="#player2NameTF_onAction" prefHeight="30.0" prefWidth="400.0" promptText="Player 2  Name" style="-fx-prompt-text-fill: #CBCBCB; -fx-text-fill: #ffffff;" unFocusColor="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </JFXTextField>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

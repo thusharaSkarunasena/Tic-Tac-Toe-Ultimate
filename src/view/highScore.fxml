@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="highScoreAnchPane" prefHeight="600.0" prefWidth="800.0" styleClass="mainFxmlClass" stylesheets="@style/highscore.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HighScoreController">
+   <children>
+      <Pane prefHeight="600.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../asset/image/BackgroundTemplate.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D />
+               </viewport>
+            </ImageView>
+            <Pane prefHeight="600.0" prefWidth="800.0">
+               <children>
+                  <ImageView fx:id="closeIcon" fitHeight="50.0" fitWidth="100.0" layoutX="740.0" layoutY="5.0" onMouseClicked="#closeIcon_onMouseClicked" onMouseEntered="#closeIcon_onMouseEntered" onMouseExited="#closeIcon_onMouseExited" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../asset/image/closeButton.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <ImageView fitHeight="200.0" fitWidth="300.0" layoutX="180.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../asset/image/TicTacToeText.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="120.0" fitWidth="120.0" layoutX="480.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../asset/image/UltimateText.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="homeIcon" fitHeight="80.0" fitWidth="100.0" layoutX="350.0" layoutY="510.0" onMouseClicked="#homeIcon_onMouseClicked" onMouseEntered="#homeIcon_onMouseEntered" onMouseExited="#homeIcon_onMouseExited" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../asset/image/HomeButton.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <Pane layoutX="100.0" layoutY="180.0" opacity="0.6" prefHeight="320.0" prefWidth="600.0" style="-fx-background-color: #ffffff;">
+                     <children>
+                        <TextArea fx:id="highScoresTA" editable="false" layoutX="100.0" layoutY="55.0" mouseTransparent="true" prefHeight="210.0" prefWidth="400.0">
+                           <cursor>
+                              <Cursor fx:constant="DEFAULT" />
+                           </cursor></TextArea>
+                        <Button fx:id="clearHighScoresBtn" layoutX="230.0" layoutY="280.0" mnemonicParsing="false" onAction="#clearHighScoresBtn_onAction" style="-fx-background-color: #000000;" text="Clear High Scores" textFill="WHITE">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></Button>
+                     </children></Pane>
+                  <Label layoutX="320.0" layoutY="180.0" text="High Scores" underline="true">
+                     <font>
+                        <Font name="Times New Roman Bold" size="36.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

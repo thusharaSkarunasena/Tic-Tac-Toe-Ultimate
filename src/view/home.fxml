@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import java.net.URL?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="homeAnchPane" prefHeight="600.0" prefWidth="800.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HomeController">
+    <stylesheets>
+        <URL value="@/view/style/home.css" />
+    </stylesheets>
+   <children>
+      <Pane prefHeight="600.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../asset/image/BackgroundTemplate.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D />
+               </viewport>
+            </ImageView>
+            <Pane prefHeight="600.0" prefWidth="800.0">
+               <children>
+                  <ImageView fx:id="closeIcon" fitHeight="50.0" fitWidth="100.0" layoutX="740.0" layoutY="5.0" onMouseClicked="#closeIcon_onMouseClicked" onMouseEntered="#closeIcon_onMouseEntered" onMouseExited="#closeIcon_onMouseExited" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../asset/image/closeButton.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <ImageView fitHeight="200.0" fitWidth="300.0" layoutX="180.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../asset/image/TicTacToeText.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="120.0" fitWidth="120.0" layoutX="480.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../asset/image/UltimateText.png" />
+                     </image>
+                  </ImageView>
+                  <JFXButton fx:id="singlePlayerBtn" buttonType="RAISED" layoutX="170.0" layoutY="230.0" onAction="#singlePlayerBtn_onAction" onMouseEntered="#singlePlayerBtn_onMouseEntered" onMouseExited="#singlePlayerBtn_onMouseExited" prefHeight="50.0" prefWidth="150.0" styleClass="spButton" stylesheets="@style/home.css" text="Single-Player" textFill="WHITE">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton fx:id="multiPlayerBtn" buttonType="RAISED" layoutX="460.0" layoutY="230.0" onAction="#multiPlayerBtn_onAction" onMouseEntered="#multiPlayerBtn_onMouseEntered" onMouseExited="#multiPlayerBtn_onMouseExited" prefHeight="50.0" prefWidth="150.0" styleClass="mpButton" stylesheets="@style/home.css" text="Multi-Player" textFill="WHITE">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton fx:id="restoreBtn" buttonType="RAISED" layoutX="330.0" layoutY="320.0" onAction="#restoreBtn_onAction" prefHeight="40.0" prefWidth="120.0" styleClass="otherButtons" stylesheets="@style/home.css" text="Restore" textFill="WHITE">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <font>
+                        <Font name="System Bold Italic" size="13.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton fx:id="settingsBtn" buttonType="RAISED" layoutX="330.0" layoutY="430.0" onAction="#settingsBtn_onAction" prefHeight="40.0" prefWidth="120.0" styleClass="otherButtons" stylesheets="@style/home.css" text="Settings" textFill="WHITE">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <font>
+                        <Font name="System Bold Italic" size="13.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton fx:id="helpBtn" buttonType="RAISED" layoutX="330.0" layoutY="485.0" onAction="#helpBtn_onAction" prefHeight="40.0" prefWidth="120.0" styleClass="otherButtons" stylesheets="@style/home.css" text="Help" textFill="WHITE">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <font>
+                        <Font name="System Bold Italic" size="13.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton fx:id="aboutBtn" buttonType="RAISED" layoutX="330.0" layoutY="540.0" onAction="#aboutBtn_onAction" prefHeight="40.0" prefWidth="120.0" styleClass="otherButtons" stylesheets="@style/home.css" text="About" textFill="WHITE">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <font>
+                        <Font name="System Bold Italic" size="13.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton fx:id="highScoreBtn" buttonType="RAISED" layoutX="330.0" layoutY="375.0" onAction="#highScoreBtn_onAction" prefHeight="40.0" prefWidth="120.0" styleClass="otherButtons" stylesheets="@style/home.css" text="High Scores" textFill="WHITE">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <font>
+                        <Font name="System Bold Italic" size="13.0" />
+                     </font>
+                  </JFXButton>
+               </children></Pane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
